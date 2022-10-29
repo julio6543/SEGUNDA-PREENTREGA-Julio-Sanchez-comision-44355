@@ -160,7 +160,7 @@ main iframe{
 /* ---------FOOTER--------- */
 #pieDePagina {
 
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
     display: flex;
     width: 20px;
