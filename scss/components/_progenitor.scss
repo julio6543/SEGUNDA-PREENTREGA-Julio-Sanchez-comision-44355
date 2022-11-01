@@ -1,0 +1,16 @@
+.card{
+    
+    border-radius: 20px;
+    margin: auto;
+    height: calc(120vh - 90px);
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+        section p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+            .text__info{
+                color: black;
+            }
+}
