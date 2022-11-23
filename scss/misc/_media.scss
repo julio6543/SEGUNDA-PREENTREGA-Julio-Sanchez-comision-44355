@@ -1,69 +1,213 @@
-// MEDIA 
-@media (max-width:900px ){
+@media (min-width:768px){
 
+    .logo-header img{
+        text-align: center;
+    }
+  }
+  
+  @media (max-width:768px){
+    header.main-header{
+      margin-bottom: 4rem;
+    }
+    .header-wrap{
+      position: fixed;
+      width: 100%;
+      background-color: #080809;
+      padding: 0;
+      top: 0;
+      z-index: 9999;
+      height: 100px;
+    }
+    .wrap-logo-header{
+    display: none;
+    }
+    .logo-header, li.menu-item a{
+      color: #222;
+    }
+  
+    i.toggle-menu{
+      display: flex;
+    }
+    ul.main-menu,#nav-main-contact{
+      display: none;
+      left: 0;
+      margin: 0;
+      padding: 0;
+    }
+    ul.main-menu{
+      position: fixed;
+      background-color: #fff;
+    }
+    label.checkbtn{
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 3%;
+      z-index: 9999;
+      cursor: pointer;
+    }
+    #check:checked ~ ul{
+      display: flex;
+      z-index: 9;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      top: 0;
+      font-size: 2rem;
+    }
+    .umbrella__main{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: auto;
+        padding: 98px 0;
+        margin:auto;
+    }
+    #menu a{
+        padding:10px 3px ;
+        
+        font-size: 20px;
+    }
+
+    .logo{
+        width: 140px;
+        height: 120px;
+    }
+
+    .card{
+
+        width: 350px;
+        height: 300px;
+    }
+
+    .hero{
+        
+        width: 350px;
+        height: 300px;
+    }
+
+    .reuniones{
+
+        width: 450px;
+        height: 400px;
+    }
+
+    .heros{
+
+        width: 450px;
+        height: 400px;
+    }
     #header{
         
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding: 5rem;
-        h1{
+    }
+
+    #header h1{
         
         font-size: 20px;
-        }
     }
-    
-
-        #menu a{
-            padding:10px 3px ;
-            
-            font-size: 20px;
-        }
-
-            .logo{
-                width: 140px;
-                height: 120px;
-            }
-
-                .card{
-
-                    width: 350px;
-                    height: 300px;
-                }
-
-                    .hero{
-                        
-                        width: 350px;
-                        height: 300px;
-                    }
-
-                        .reuniones{
-
-                            width: 450px;
-                            height: 400px;
-                        }
-
-                            .heros{
-
-                                width: 450px;
-                                height: 400px;
-                            }
-
-
-                                // #header h1{
-                                    
-                                //     font-size: 20px;
-                                // }
-                                    #contenedor-menu{
-                                        
-                                        width: 1400px;
-                                    }
+    #contenedor-menu{
+        
+        width: 1400px;
+    }
 
     .text__info{
 
         font-size: 15px;
     }
+    }
+    @media (max-width: 900px) {
+        #header {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 5rem; }
+          #header h1 {
+            font-size: 20px; }
+        #menu a {
+          padding: 10px 3px;
+          font-size: 20px; }
+        .logo {
+          width: 140px;
+          height: 120px; }
+        .card {
+          width: 350px;
+          height: 300px; }
+        .hero {
+          width: 350px;
+          height: 300px; }
+        .reuniones {
+          width: 450px;
+          height: 400px; }
+        .heros {
+          width: 450px;
+          height: 400px; }
+        #contenedor-menu {
+          width: 1400px; }
+        .text__info {
+          font-size: 15px; } }
 
-
-
-}
+          @media (max-width: 700px) {
+            #header {
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              padding: 3rem; }
+              #header h1 {
+                font-size: 15px; }
+            #menu a {
+              padding: 10px 3px;
+              font-size: 20px; }
+            .logo {
+              width: 120px;
+              height: 100px; }
+            .card {
+              width: 350px;
+              height: 300px; }
+            .hero {
+              width: 350px;
+              height: 300px; }
+            .reuniones {
+              width: 450px;
+              height: 400px; }
+            .heros {
+              width: 450px;
+              height: 400px; }
+            #contenedor-menu {
+              width: 1400px; }
+            .text__info {
+              font-size: 15px; } }
+            
+              @media (max-width: 500px) {
+                #header {
+                  flex-direction: column;
+                  align-items: center;
+                  text-align: center;
+                  padding: 2rem; }
+                  #header h1 {
+                    font-size: 10px; }
+                #menu a {
+                  padding: 10px 3px;
+                  font-size: 20px; }
+                .logo {
+                  width: 100px;
+                  height: 80px; }
+                .card {
+                  width: 300px;
+                  height: 270px; }
+                .hero {
+                  width: 300px;
+                  height: 300px; }
+                .reuniones {
+                  width: 450px;
+                  height: 400px; }
+                .heros {
+                  width: 450px;
+                  height: 400px; }
+                #contenedor-menu {
+                  width: 1400px; }
+                .text__info {
+                  font-size: 15px; } }    

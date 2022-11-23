@@ -1,0 +1,41 @@
+.form{
+    background-color:whitesmoke;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    
+    }
+
+
+.form__container{
+
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: 100%;
+}
+
+
+.form__title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+
+}
+
+
+
+.form__imput{
+
+    font-size: 1rem;
+    padding: .8em 1em;
+}
+
+
+.form__imput--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+
+}

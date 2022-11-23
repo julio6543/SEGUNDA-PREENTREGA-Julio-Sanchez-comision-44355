@@ -1,52 +1,131 @@
-/*---HEADER---*/ 
-#header {
-            align-items: center;
-            background-image: url(../../../SEGUNDA-PREENTREGA-Julio-Sanchez-comision-44355/img/oficinas1.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            padding: 16px;
-            width:100%;
-            display: flex;
-            justify-content: space-between;
-        .logo{
-                width: 150px;
-                height: 160px;
-            
-        }
-            #menu{
-                    height:40px ;
-                    width: 40rem;
-            }
-            
-                &a{
-                    position: relative;
-                    text-decoration: none;
-                    font-size: 20px;
-                    padding: 1rem;
-                    justify-content: center;
-                }              
-                    .link--active{
-                                    color: #800000;
-                                    font-weight: 700;
-                }
-                        #menu a::after{
-                            content: "";
-                            position: absolute;
-                            background-color: #800000;
-                            height: 3px;
-                            width: 0;
-                            left: 0;
-                            bottom: 0px;
-                            transition: 0.3s;
-                        }
-                            #menu a:hover{
-                                color: #800000;
-                                transform: scale(1.15);
-                            }
-                                #menu a:hover:after{
-                                    width: 100%;
-                                }
+/* header */
+.titulo{
+  color: #800000;
+  padding-left:0%;
+  justify-content: space-between;
+  
+}
+.main-header{
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #080809;
+
+  }
+   
+  .header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #080809;
+    z-index: 999;
+    height: 70px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+   
+  .wrap-logo-header{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+  }
+   
+  .logo-header img{
+    width: 75%;
+    max-width: 75%;
+  }
+   
+  .nav-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+   
+  .nav-wrap-header{
+    display: flex;
+    flex-basis: 50%;
+  }
+   
+  ul.main-menu{
+    display: flex;
+    width: 100%;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+   
+  ul.main-menu #nav-main-contact{
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+  }
+   
+  li.menu-item{
+    margin: .75rem;
+    display: flex;
+  }
+   
+  li.menu-item a{
+    padding: .5rem 1rem;
+    color: #fff;
+  }
+   
+  li.menu-item a:hover{
+    color: #800000;
+  }
+   
+  i.toggle-menu{
+    display: none;
+    border: none;
+    z-index: 9999;
+  }
+   
+  i.toggle-menu img{
+    width: 100px;
+    z-index: 99;
+  }
+   
+  input#check{
+    display: none;
+  }
+  .umbrella__main{
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 200px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.fondo{
+    object-fit: cover;
+    height: 80%;
+}
+.fondo--modifierindex{
+  width: 60%;
+}
 
     
-    }
+.title{
+    font-size: 56px;
+    font-weight: 300;
+    color: #fff;
+}
+.title--active{
+    color: #800000;
+    font-weight: 300;
+}
+.copy{
+    font-size: 24px;
+    color: #ffffff80;
+    text-shadow: 0 8px 8px #00000033;
+    margin: 15px 0;
+}
+.copy__active{
+    font-weight:700;
+}

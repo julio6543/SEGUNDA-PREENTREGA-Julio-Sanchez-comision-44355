@@ -163,7 +163,7 @@
 } */
 /* animaciones/transiciones/efectos */
 
-#menu a::after{
+/* #menu a::after{
     content: "";
     position: absolute;
     background-color: #800000;
@@ -215,7 +215,7 @@
     text-align: center;
     padding: 12px 0;
     text-decoration: none;
-} */
+} */ */ */
 /* responsive */
 /* @media (max-width:900px ){
 
@@ -277,7 +277,3 @@
 
         font-size: 15px;
     } */
-
-
-
-}

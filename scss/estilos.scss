@@ -1,9 +1,6 @@
 // NORMALIZE
 @import"./misc/normalize";
 
-// VARIABLE
-@import"./misc/variable";
-
 //HEADER
 @import "./layout/header";
 
@@ -16,10 +13,15 @@
 // VIRUS G
 @import"./components/virusg";
 
+// Formulario
+@import "./components/formulario";
+
 // FOOTER
 @import "./layout/footer";
 
 // MEDIA
 @import"./misc/media";
+
+
 
 
